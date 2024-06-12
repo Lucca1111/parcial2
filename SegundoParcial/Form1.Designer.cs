@@ -46,14 +46,24 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.lbcuit = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nuevoRegistroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarRegistroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarRegistroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.lbcuit);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
@@ -62,7 +72,7 @@
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Location = new System.Drawing.Point(86, 30);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(273, 149);
+            this.groupBox1.Size = new System.Drawing.Size(273, 175);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registro";
@@ -165,7 +175,7 @@
             this.groupBox3.Controls.Add(this.checkBox3);
             this.groupBox3.Controls.Add(this.checkBox2);
             this.groupBox3.Controls.Add(this.checkBox1);
-            this.groupBox3.Location = new System.Drawing.Point(91, 201);
+            this.groupBox3.Location = new System.Drawing.Point(91, 226);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(268, 129);
             this.groupBox3.TabIndex = 2;
@@ -233,6 +243,59 @@
             this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // lbcuit
+            // 
+            this.lbcuit.AutoSize = true;
+            this.lbcuit.Location = new System.Drawing.Point(21, 147);
+            this.lbcuit.Name = "lbcuit";
+            this.lbcuit.Size = new System.Drawing.Size(29, 15);
+            this.lbcuit.TabIndex = 6;
+            this.lbcuit.Text = "Cuit";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(86, 144);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 23);
+            this.textBox3.TabIndex = 7;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inicioToolStripMenuItem,
+            this.nuevoRegistroToolStripMenuItem,
+            this.modificarRegistroToolStripMenuItem,
+            this.eliminarRegistroToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "Inicio";
+            // 
+            // inicioToolStripMenuItem
+            // 
+            this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.inicioToolStripMenuItem.Text = "Inicio";
+            // 
+            // nuevoRegistroToolStripMenuItem
+            // 
+            this.nuevoRegistroToolStripMenuItem.Name = "nuevoRegistroToolStripMenuItem";
+            this.nuevoRegistroToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
+            this.nuevoRegistroToolStripMenuItem.Text = "Nuevo Registro";
+            // 
+            // modificarRegistroToolStripMenuItem
+            // 
+            this.modificarRegistroToolStripMenuItem.Name = "modificarRegistroToolStripMenuItem";
+            this.modificarRegistroToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
+            this.modificarRegistroToolStripMenuItem.Text = "Modificar Registro";
+            // 
+            // eliminarRegistroToolStripMenuItem
+            // 
+            this.eliminarRegistroToolStripMenuItem.Name = "eliminarRegistroToolStripMenuItem";
+            this.eliminarRegistroToolStripMenuItem.Size = new System.Drawing.Size(108, 20);
+            this.eliminarRegistroToolStripMenuItem.Text = "Eliminar Registro";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -244,8 +307,12 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -253,6 +320,8 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,5 +347,12 @@
         private ListBox listBox1;
         private Label label4;
         private Button button1;
+        private TextBox textBox3;
+        private Label lbcuit;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem inicioToolStripMenuItem;
+        private ToolStripMenuItem nuevoRegistroToolStripMenuItem;
+        private ToolStripMenuItem modificarRegistroToolStripMenuItem;
+        private ToolStripMenuItem eliminarRegistroToolStripMenuItem;
     }
 }
