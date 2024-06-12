@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\PARCIAL 2\\SegundoParcial\\SegundoParcial.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\parcial2\\SegundoParcial\\SegundoParcial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\PARCIAL 2\\SegundoParcial\\SegundoParcial.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\parcial2\\SegundoParcial\\SegundoParcial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\PARCIAL 2\\SegundoParcial\\SegundoParcial.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\parcial2\\SegundoParcial\\SegundoParcial.csproj",
         "projectName": "SegundoParcial",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\PARCIAL 2\\SegundoParcial\\SegundoParcial.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\parcial2\\SegundoParcial\\SegundoParcial.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\PARCIAL 2\\SegundoParcial\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\parcial2\\SegundoParcial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

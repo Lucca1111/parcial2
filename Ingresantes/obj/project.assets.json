@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\PARCIAL 2\\Ingresantes\\Ingresantes.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\parcial2\\Ingresantes\\Ingresantes.csproj",
       "projectName": "Ingresantes",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\PARCIAL 2\\Ingresantes\\Ingresantes.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\parcial2\\Ingresantes\\Ingresantes.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\PARCIAL 2\\Ingresantes\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\lucca\\TEC. SUPERIOR EN PROGRAMACION\\SEGUNDO AÑO\\PROGRAMACION III\\parcial2\\Ingresantes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
