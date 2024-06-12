@@ -22,8 +22,9 @@ namespace Ingresantes
             public string genero { get; set; }
             public string nombre { get; set; }
             public string pais { get; set; }
+            public string cuit { get; set; }
 
-            public Ingresante(string[] cursos, string direccion, int edad, string genero, string nombre, string pais)
+            public Ingresante(string[] cursos, string direccion, int edad, string genero, string nombre, string pais, string cuit)
             {
                 this.cursos = cursos;
                 this.direccion = direccion;
@@ -31,11 +32,12 @@ namespace Ingresantes
                 this.genero = genero;
                 this.nombre = nombre;
                 this.pais = pais;
+                this.cuit = cuit;
             }
             public string Mostrar()
             {
                 StringBuilder sb = new StringBuilder($"Curso:{cursos} + Direccion:{direccion} + Edad: {edad}" +
-                    $"Genero: {genero}+nombre{nombre} + pais{pais}");
+                    $"Genero: {genero}+nombre: {nombre} + pais: {pais} + cuit: {cuit}");
                 return sb.ToString();
 
 
